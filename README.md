@@ -1,2 +1,2 @@
 # badang
-badang (bala - bala udang) landing page
+badang (bala - bala udang) simple landing page
