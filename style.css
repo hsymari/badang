@@ -88,6 +88,7 @@ main p {
     text-transform: uppercase;
     background: #D8C3A5;
     color: #333;
+    cursor: pointer;
 }
 
 .masuk-btn {
