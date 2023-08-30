@@ -7,3 +7,96 @@
 body {
     font-family: 'Montserrat', sans-serif;
 }
+
+header {
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+ul li a {
+    text-decoration: none;
+    padding: 0 20px;
+    color: #8E8D8A;
+    display: inline-block;
+}
+
+li a::after {
+    content: '';
+    display: block;
+    height: 4px;
+    width: 0;
+    background: #EAE7DC;
+    transition: all .5s;
+}
+
+li a:hover::after {
+    width: 100%;
+}
+
+main {
+    display: flex;
+    height: calc(100vh - 100px);
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-img {
+    max-width: 670px;
+    height: auto;
+}
+
+.content-left {
+    width: 30%;
+}
+
+main h1 {
+    font-size: 54px;
+    text-transform: uppercase;
+    color: #D8C3A5;
+}
+
+main h2 {
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 400px;
+    color: #D8C3A5;
+    letter-spacing: 8px;
+}
+
+main p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #333;
+    line-height: 31.5px;
+    margin: 30px 0;
+}
+
+.cta {
+    padding: 15px 30px;
+    outline: none;
+    border: none;
+    font-weight: 700;
+    border-radius: 50px;
+    text-transform: uppercase;
+    background: #D8C3A5;
+    color: #333;
+}
+
+.masuk-btn {
+    padding: 10px 20px;
+    outline: none;
+    border: none;
+    font-weight: 700;
+    border-radius: 50px;
+    text-transform: uppercase;
+    background: #D8C3A5;
+    color: #333;   
+}
